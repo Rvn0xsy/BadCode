@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BadCodeDisableImport", "Bad
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BadCodeString", "BadCodeString\BadCodeString.vcxproj", "{79376C7C-27F8-4E81-B41B-437B9E7ECA0E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BadCodeHeapCreate", "BadCodeHeapCreate\BadCodeHeapCreate.vcxproj", "{6B72EDA1-A56B-45DD-AF4D-AD4B50B20FEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -89,6 +91,14 @@ Global
 		{79376C7C-27F8-4E81-B41B-437B9E7ECA0E}.Release|Win32.Build.0 = Release|Win32
 		{79376C7C-27F8-4E81-B41B-437B9E7ECA0E}.Release|x64.ActiveCfg = Release|x64
 		{79376C7C-27F8-4E81-B41B-437B9E7ECA0E}.Release|x64.Build.0 = Release|x64
+		{6B72EDA1-A56B-45DD-AF4D-AD4B50B20FEF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6B72EDA1-A56B-45DD-AF4D-AD4B50B20FEF}.Debug|Win32.Build.0 = Debug|Win32
+		{6B72EDA1-A56B-45DD-AF4D-AD4B50B20FEF}.Debug|x64.ActiveCfg = Debug|x64
+		{6B72EDA1-A56B-45DD-AF4D-AD4B50B20FEF}.Debug|x64.Build.0 = Debug|x64
+		{6B72EDA1-A56B-45DD-AF4D-AD4B50B20FEF}.Release|Win32.ActiveCfg = Release|Win32
+		{6B72EDA1-A56B-45DD-AF4D-AD4B50B20FEF}.Release|Win32.Build.0 = Release|Win32
+		{6B72EDA1-A56B-45DD-AF4D-AD4B50B20FEF}.Release|x64.ActiveCfg = Release|x64
+		{6B72EDA1-A56B-45DD-AF4D-AD4B50B20FEF}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
