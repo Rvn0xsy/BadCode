@@ -12,5 +12,6 @@
 - [静态恶意代码逃逸（第六课）](https://payloads.online/archivers/2020-01-02/1)
 - [静态恶意代码逃逸（第七课）](https://payloads.online/archivers/2020-10-23/1)
 - [静态恶意代码逃逸（第八课）](https://payloads.online/archivers/2020-11-29/1)
+- [静态恶意代码逃逸（第九课）](https://payloads.online/archivers/2020-11-29/2)
 
 将会持续更新~ 总之，应该会更新
