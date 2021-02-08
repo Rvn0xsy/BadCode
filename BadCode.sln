@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1300
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BadCode", "BadCode\BadCode.vcxproj", "{F83A2CCC-B875-4D75-B94C-3F5CE9D235DA}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BadCodeString", "BadCodeString\BadCodeString.vcxproj", "{79376C7C-27F8-4E81-B41B-437B9E7ECA0E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BadCodeHeapCreate", "BadCodeHeapCreate\BadCodeHeapCreate.vcxproj", "{6B72EDA1-A56B-45DD-AF4D-AD4B50B20FEF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BadCodeUUID", "BadCodeUUID\BadCodeUUID.vcxproj", "{F44B544E-28FE-4F33-8490-434EF45B20ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,14 @@ Global
 		{6B72EDA1-A56B-45DD-AF4D-AD4B50B20FEF}.Release|Win32.Build.0 = Release|Win32
 		{6B72EDA1-A56B-45DD-AF4D-AD4B50B20FEF}.Release|x64.ActiveCfg = Release|x64
 		{6B72EDA1-A56B-45DD-AF4D-AD4B50B20FEF}.Release|x64.Build.0 = Release|x64
+		{F44B544E-28FE-4F33-8490-434EF45B20ED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F44B544E-28FE-4F33-8490-434EF45B20ED}.Debug|Win32.Build.0 = Debug|Win32
+		{F44B544E-28FE-4F33-8490-434EF45B20ED}.Debug|x64.ActiveCfg = Debug|x64
+		{F44B544E-28FE-4F33-8490-434EF45B20ED}.Debug|x64.Build.0 = Debug|x64
+		{F44B544E-28FE-4F33-8490-434EF45B20ED}.Release|Win32.ActiveCfg = Release|Win32
+		{F44B544E-28FE-4F33-8490-434EF45B20ED}.Release|Win32.Build.0 = Release|Win32
+		{F44B544E-28FE-4F33-8490-434EF45B20ED}.Release|x64.ActiveCfg = Release|x64
+		{F44B544E-28FE-4F33-8490-434EF45B20ED}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
