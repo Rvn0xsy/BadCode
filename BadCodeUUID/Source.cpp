@@ -37,7 +37,7 @@ int main(int argc, char* argv[]) {
 		if (CodePtr == NULL) {
 			break;
 		}
-		RPC_STATUS	status = UuidFromStringA(RPC_CSTR(buf[i]), (UUID*)CodePtr);
+		RPC_STATUS	status = UuidFromStringA((RPC_CSTR)buf[i], (UUID*)CodePtr);
 		if (status != RPC_S_OK) {
 
 			return -1;
@@ -49,7 +49,6 @@ int main(int argc, char* argv[]) {
 		return -1;
 	}
 	if (EnumSystemLanguageGroupsA((LANGUAGEGROUP_ENUMPROCA)pMemory, LGRPID_INSTALLED, NULL) == FALSE) {
-		// º”‘ÿ≥…π¶
 		return 0;
 	}
 	return 0;
